@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:orientation="vertical">
+
+
+
+
+    <com.example.eee.MarqueeTextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="欢迎来到chanyeol的小世界!!!务必玩得开心哦！"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+
+
+        android:singleLine="true"
+        android:scrollHorizontally="true"
+
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"/>
+
+
+    <Button
+        android:id="@+id/personal"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:text="个人介绍"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:id="@+id/fashion"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:text="时尚品牌活动"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/movie"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:text="影视作品"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:text="合作曲"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10sp"/>
+
+
+</LinearLayout>

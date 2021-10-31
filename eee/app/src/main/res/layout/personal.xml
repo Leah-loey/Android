@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+<!--    <android.support.v7.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:id="@+id/recylerview"/>-->
+
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="566dp"
+        android:layout_height="267dp"
+        android:layout_gravity="center"
+        android:src="@drawable/cl" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       朴灿烈(Park Chanyeol)，1992年11月27日 生于韩国首尔。歌手，演员。韩国最大娱乐公司S.MEntertainment旗下男子组合EX0成员，官方门面担当、主RAPPER担当、副主唱担当。"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="0.8"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       2016年主演中国电影《所...和黑粉结婚了》男主大一番票房8114万， 打破由韩国人主演的中韩合拍2D爱情片记录。"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="0.8"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+
+        <TextView
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       同月，主演爱情网络剧《我邻居是EXO》该剧也是韩国首部点击量破千万的网络剧他凭该剧在第8届韩国电视剧节中获得男子新人奖和韩流明星奖"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="0.8"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="获得奖项："
+                android:textSize="30sp"
+                android:lineSpacingMultiplier="0.8"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       2015年4月，出演个人首部电影《长寿商会》他凭此片在第51届百想艺术大赏中入围“男演员人气奖”"
+                android:textSize="20sp"
+                android:lineSpacingMultiplier="0.8"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       2016年4月，荣获第16届音乐风云榜年度盛典最受欢迎海外偶像奖。"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="0.8"
+            android:textColor="@color/black"
+                android:layout_marginBottom="5dp"/>
+        <TextView
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="       2017年4月，荣获音悦V榜年度最佳合作曲和最具人气艺人奖。"
+            android:textSize="20sp"
+            android:lineSpacingMultiplier="0.8"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"/>
+
+
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="       2020年1月5日，朴灿烈随组合EXO-SC在第34届金唱片奖凭借《What a life》获得专辑部门本赏，8月，主演电影《The Box》"
+                android:textSize="20sp"
+                android:lineSpacingMultiplier="0.8"
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/ins"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="       Instagram@real_ _pcy"
+                    android:textSize="20sp"
+                    android:lineSpacingMultiplier="0.8"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/wb"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="         微博@real_ _pcyyy"
+                    android:textSize="20sp"
+                    android:lineSpacingMultiplier="0.8"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/last"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BACK"
+                android:layout_marginLeft="50dp"/>
+
+        </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
